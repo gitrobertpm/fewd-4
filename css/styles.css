@@ -1,0 +1,103 @@
+/*************************
+My responsive styles for FEWD - 4
+Robert Manolis
+Milwaukie, OR - 4/11/2017
+*************************/
+
+
+/********General**********/
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+/*************************/
+
+
+/********Gallery**********/
+main {
+	max-width: 1024px;
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+}
+
+input {
+	width: 300px;
+	height: 45px;
+	padding: 7px;
+	margin: 25px auto;
+	color: rgba(50,50,50,0.7);
+	border-radius: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(50,50,50,0.3);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(50,50,50,0.3);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(50,50,50,0.3);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(50,50,50,0.3);
+}
+
+a {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 700;
+	text-decoration: none;
+	color: rgba(50,50,50, 1);
+	margin: 15px;
+	border-radius: 3px;
+	overflow: hidden;
+	transition: all .5s;
+	box-shadow: 3px 3px 3px rgba(50,50,50,0.3);
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	transform: scale(1);
+	transition: all 1.5s;
+	-webkit-filter: saturate(2);
+  filter: saturate(2);
+}
+
+img:hover {
+	transform: scale(1.25);
+	-webkit-filter: saturate(5);
+  filter: saturate(5);
+}
+/*************************/
+
+
+/********Lightbox**********/
+.lb-nav a.lb-next, .lb-nav a.lb-prev {
+	width: 100px;
+	box-shadow: none;
+}
+/*************************/
+
+
+/********Typography*******
+
+	/********fonts************
+	font-family: 'Roboto', sans-serif; - 300, 700
+	font-family: 'IM Fell English SC', serif; - 400
+	*************************/
+
+
+
+/*************************/

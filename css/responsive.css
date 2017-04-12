@@ -1,0 +1,65 @@
+/*************************
+My responsive styles for FEWD - 4
+Robert Manolis
+Milwaukie, OR - 4/11/2017
+*************************/
+
+@media screen and (min-width: 768px) {
+	/********Gallery**********/
+	input {
+		font-size: x-large;
+		width: 420px;
+		padding: 10px;
+	}
+	/*************************/
+	
+	
+	/********Lightbox*********/
+	.lb-nav a.lb-next, .lb-nav a.lb-prev {
+		width: 300px;
+	}
+	
+	.lb-dataContainer {
+		background: white;
+	}
+	
+	.lightbox .lb-image {
+		min-width: 723px;
+		max-height: 431px;
+		height: auto;
+	}
+	
+	.lb-data .lb-caption {
+		display: block;
+		font-size: x-large;
+		color: black;
+		margin: 10px auto;
+		padding-left: 10px;
+	}
+	
+	.lb-data .lb-number {
+		padding-left: 10px;
+	} 
+	
+	.lb-data .lb-close {
+		box-shadow: none;
+		-webkit-filter: drop-shadow(3px 3px 2px rgba(50,50,50,0.7));
+  	filter: drop-shadow(3px 3px 2px rgba(50,50,50,0.7));
+	}
+	/*************************/
+}
+
+
+@media screen and (min-width: 1024px) {
+	/********Lightbox**********/
+	.lb-nav a.lb-next, .lb-nav a.lb-prev {
+		width: 350px;
+	}
+	
+	.lightbox .lb-image {
+		min-width: 774px;
+		max-height: 500px;
+		height: auto;
+	}
+	/*************************/
+}
